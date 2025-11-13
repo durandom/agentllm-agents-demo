@@ -10,9 +10,8 @@ from typing import Any
 
 from loguru import logger
 
+from agentllm.agents.toolkit_configs.base import BaseToolkitConfig
 from agentllm.utils.logging import safe_log_content
-
-from .base import BaseToolkitConfig
 
 
 class FavoriteColorConfig(BaseToolkitConfig):
