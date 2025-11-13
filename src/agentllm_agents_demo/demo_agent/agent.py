@@ -15,8 +15,8 @@ from agno.db.sqlite import SqliteDb
 
 from agentllm.agents.base_agent import BaseAgentWrapper
 from agentllm.agents.toolkit_configs.base import BaseToolkitConfig
-from agentllm.agents.toolkit_configs.favorite_color_config import FavoriteColorConfig
 from agentllm.db import TokenStorage
+from agentllm_agents_demo.toolkit_configs.favorite_color_config import FavoriteColorConfig
 
 # Map GEMINI_API_KEY to GOOGLE_API_KEY if not set
 if "GOOGLE_API_KEY" not in os.environ and "GEMINI_API_KEY" in os.environ:
